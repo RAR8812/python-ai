@@ -14,6 +14,7 @@ Every lesson ends with something you can run, push to GitHub, and show to a clie
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20apps-1c3c3c?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-local%20models-000000?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Module%202%20in%20progress-0a7d5a?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-3e4c59?style=for-the-badge)
 
 <br>
 
@@ -286,6 +287,7 @@ python-ai/
 ├── pyproject.toml                Project definition and dependencies
 ├── uv.lock                       Exact dependency versions
 ├── .python-version               Pinned Python version (3.13)
+├── LICENSE                       MIT License
 └── README.md                     You are here
 ```
 
@@ -325,6 +327,12 @@ python-ai/
 | Agents | [Building effective agents (Anthropic)](https://www.anthropic.com/engineering/building-effective-agents) |
 | Tools for agents | [Model Context Protocol](https://modelcontextprotocol.io) |
 | Further study | [DeepLearning.AI short courses](https://www.deeplearning.ai/short-courses) |
+
+---
+
+## License
+
+This project is released under the [MIT License](LICENSE). You are free to use, adapt and share the lessons and code, provided the copyright notice is kept.
 
 ---
 
