@@ -67,7 +67,7 @@ Each module adds one more piece of that formula, until you can build agents that
 ```mermaid
 flowchart LR
     M1["<b>Module 1</b><br/>Python Basics for<br/>GenAI and Agentic AI"]
-    M2["<b>Module 2</b><br/>Core Python for<br/>Your First LLM Apps"]
+    M2["<b>Module 2</b><br/>Core Python for<br/>Building LLM Apps"]
     M3["<b>Next</b><br/>RAG and Tools"]
     M4["<b>Next</b><br/>AI Agents"]
     J["<b>Outcome</b><br/>Jobs and<br/>Client Work"]
@@ -117,13 +117,13 @@ Build the foundation: tools, project setup, and the core Python that every AI ap
 | 1.7 | [Operators and Making Decisions](docs/01-python-basics/1.7-operators-and-decisions.md) | Arithmetic, comparison and logical operators; truthiness; `if / elif / else` | Smart model router |
 | 1.8 | [Mini Project: Rule-Based Chatbot](docs/01-python-basics/1.8-mini-project-rule-based-chatbot.md) | `while True`, `break`, counters, rule order, designing intents | Business helper bot (Module 1 final) |
 
-### Module 2: Core Python for Your First LLM Apps
+### Module 2: Core Python for Building LLM Apps
 
 Connect Python to real language models, then learn the data structures and control flow that real LLM apps depend on.
 
 | # | Lesson | What you learn | What you build |
 |:-:|---|---|---|
-| 2.1 | [Your First AI Call](docs/02-talk-to-ai/lesson-2.1-your-first-ai-call.md) | LangChain `init_chat_model`, `invoke`, token usage, system messages, temperature, streaming | AI tutor, and the Module 1 bot with a real AI brain |
+| 2.1 | [Your First AI Call](docs/02-talk-to-ai/2.1-your-first-ai-call.md) | LangChain `init_chat_model`, `invoke`, token usage, system messages, temperature, streaming | AI tutor, and the Module 1 bot with a real AI brain |
 | 2.2 | Chat History with Lists | Coming soon | A chatbot that remembers the conversation |
 | 2.3 | Dictionaries | Coming soon | Structured data such as price lists |
 | 2.4 | `for` Loops | Coming soon | Processing many items and responses |

@@ -16,7 +16,7 @@
 
 ---
 
-## Lesson 1.1: Welcome to the GenAI & Agentic AI
+## Lesson 1.1: Welcome to GenAI & Agentic AI
 
 **Q1.** Which best describes **Agentic AI**?
 - a) A chatbot that gives one reply to one question
