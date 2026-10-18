@@ -162,42 +162,31 @@ flowchart LR
 
 ## Assessments and Projects
 
-Learning is measured in three ways: quick knowledge checks, small code tasks, and client-style projects with a live demo.
+Every module is split into **checkpoints** of four lessons. Each checkpoint has three assessments: a quick check, code tasks and a client-style project with a live demo.
 
 ```mermaid
 flowchart LR
-    L["Lesson"] --> Q["Quick Check<br/><i>5 minutes</i>"]
-    Q --> T["Code Task<br/><i>10 marks</i>"]
-    T --> P["Module Project<br/><i>100 marks + demo</i>"]
+    L["4 Lessons"] --> Q["Quick Check<br/><i>5 minutes per lesson</i>"]
+    Q --> T["Code Tasks<br/><i>10 marks each</i>"]
+    T --> P["Checkpoint Project<br/><i>100 marks + demo</i>"]
     P --> G["GitHub Portfolio"]
 ```
 
-### Quick checks
-
-Five multiple-choice questions plus one *Predict the Output* question per lesson. Answer without notes or AI tools first, then run the code to check yourself.
-
-| Assessment | Covers |
+| Assessment | What it does |
 |---|---|
-| [Module 1 Quick Checks, Part 1](docs/assessments/module-1-quick-checks.md) | Lessons 1.1 to 1.4 |
-| [Module 1 Quick Checks, Part 2](docs/assessments/module-1-quick-checks-part-2.md) | Lessons 1.5 to 1.8 |
+| **Quick check** | Five multiple-choice questions plus one *Predict the Output* per lesson. New examples, not the lesson's own, so it tests understanding rather than memory. Answer without notes or AI tools first, then run the code to check yourself. |
+| **Code tasks** | The full spec for each lesson's *Your Task*: client story, requirements, expected output, checklist and marks. Each task is pushed as a single commit. |
+| **Project** | Starts with a client story, combines every lesson in the checkpoint, is marked out of 100, and ends with a three-minute demo pitched like a freelancer. |
 
-### Code tasks
+### Module 1
 
-Small, client-style exercises, one per lesson, each marked out of 10 and pushed as a single commit.
+| Checkpoint | Lessons | Quick check | Code tasks | Project |
+|---|---|---|---|---|
+| 1 | 1.1 to 1.4 | [Quick Check 1](docs/assessments/module-1/checkpoint-1-quick-checks.md) | [Tasks 1.1 to 1.4](docs/assessments/module-1/checkpoint-1-code-tasks.md) | [AI Prompt Kit for a Local Business](docs/assessments/module-1/checkpoint-1-project-prompt-kit.md) |
+| 2 | 1.5 to 1.8 | [Quick Check 2](docs/assessments/module-1/checkpoint-2-quick-checks.md) | [Tasks 1.5 to 1.8](docs/assessments/module-1/checkpoint-2-code-tasks.md) | [AI Front Desk for a Local Business](docs/assessments/module-1/checkpoint-2-project-front-desk.md) |
 
-| Assessment | Covers | Tasks |
-|---|---|---|
-| [Module 1 Code Tasks, Part 1](docs/assessments/module-1-code-tasks.md) | Lessons 1.1 to 1.4 | AI career intro, toolkit proof, client-ready repo, business prompt builder |
-| [Module 1 Code Tasks, Part 2](docs/assessments/module-1-code-tasks-part-2.md) | Lessons 1.4 to 1.8 | Prompt builder, model profile card, prompt cleaner, model router, business helper bot |
-
-### Module projects
-
-Each project starts with a client story, is marked out of 100, and ends with a three-minute demo pitched like a freelancer.
-
-| Project | Covers | The brief |
-|---|---|---|
-| [AI Prompt Kit for a Local Business](docs/assessments/module-1-project-brief.md) | Lessons 1.1 to 1.4 | A tool that turns a business's details into three ready-to-use AI prompts, tested on a real model |
-| [AI Front Desk for a Local Business](docs/assessments/module-1-project-brief-part-2.md) | Lessons 1.1 to 1.8 | A front desk that answers FAQs with rules, calculates exact price quotes, routes other questions to a local or cloud model, and prints a session report |
+- **Checkpoint 1 project:** a tool that turns a business's details into three ready-to-use AI prompts, tested on a real model.
+- **Checkpoint 2 project (Module 1 final):** a front desk that answers FAQs with rules, calculates exact price quotes, routes other questions to a local or cloud model, and prints a session report.
 
 **Project marking at a glance**
 
@@ -281,7 +270,8 @@ python-ai/
 ├── docs/
 │   ├── 01-python-basics/         Module 1 lessons (1.1 to 1.8)
 │   ├── 02-talk-to-ai/            Module 2 lessons (2.1 onward)
-│   └── assessments/              Quick checks, code tasks and project briefs
+│   └── assessments/
+│       └── module-1/             Checkpoints 1 and 2: quick checks, code tasks, projects
 ├── notebooks/                    Jupyter notebooks (.ipynb)
 ├── main.py                       First script
 ├── pyproject.toml                Project definition and dependencies

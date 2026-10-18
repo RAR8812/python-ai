@@ -1,4 +1,4 @@
-# Module 1 Project Part 2: AI Front Desk for a Local Business
+# Module 1, Checkpoint 2 Project: AI Front Desk for a Local Business
 
 **Course:** Python for AI · **Module 1:** Python Basics for GenAI and Agentic AI · **Covers:** Lessons 1.1 to 1.8 · **Updated:** Oct 2026
 
@@ -253,7 +253,7 @@ Before coding, create `docs/project-m1-part2-design.md` with two tables.
 ## 11. Submission
 
 - **Deadline:** before the Module 1 final demo class
-- **Commit message:** `Module 1 Project Part 2: AI Front Desk`
+- **Commit message:** `Module 1 Checkpoint 2 Project: AI Front Desk`
 - Push to your public `python-ai` repo and share the link
 
 **Why this project matters:** a front desk that answers the easy questions for free, quotes prices exactly, and only spends AI money where it adds value is what small businesses actually need. In Module 2, your printed prompts are **sent to a real AI automatically** (Lesson 2.1), and your price list moves into a dictionary (Lesson 2.3).

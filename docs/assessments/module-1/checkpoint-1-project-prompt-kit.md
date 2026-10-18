@@ -1,4 +1,4 @@
-# Module 1 Project: AI Prompt Kit for a Local Business
+# Module 1, Checkpoint 1 Project: AI Prompt Kit for a Local Business
 
 **Course:** Python for AI · **Module 1:** Python Basics for GenAI and Agentic AI · **Covers:** Lessons 1.1 to 1.4 · **Updated:** Wed 14 Oct 2026 - 3:58 PM
 
@@ -194,7 +194,7 @@ A Python tool that turns a local business's details into 3 ready-to-use AI promp
 ## 10. Submission
 
 - **Deadline:** before the Module 1 demo class
-- **Commit message:** `Module 1 Project: AI Prompt Kit`
+- **Commit message:** `Module 1 Checkpoint 1 Project: AI Prompt Kit`
 - Push to your public `python-ai` repo and share the link
 
 **Why this project matters:** "I build AI prompt tools for small businesses" is a real service you can offer on Fiverr, Upwork or to local shops. In Module 2, this tool will **send the prompts to AI automatically** instead of you copy-pasting.

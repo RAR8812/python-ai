@@ -1,4 +1,4 @@
-# Module 1 Code Tasks (Lessons 1.1 to 1.4)
+# Module 1, Checkpoint 1: Code Tasks (Lessons 1.1 to 1.4)
 
 **Course:** Python for AI · **Module 1:** Python Basics for GenAI and Agentic AI · **Updated:** Oct 2026
 

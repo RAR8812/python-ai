@@ -1,4 +1,4 @@
-# Module 1 Code Tasks (Lessons 1.4 to 1.8)
+# Module 1, Checkpoint 2: Code Tasks (Lessons 1.5 to 1.8)
 
 **Course:** Python for AI · **Module 1:** Python Basics for GenAI and Agentic AI · **Updated:** Oct 2026
 
@@ -20,43 +20,6 @@
 **Commit message format:** `Task 1.5: model profile card`
 
 **Marks:** 10 per task · **Deadline:** before the next class
-
-**Task 1.4** is the same task as in *Module 1 Code Tasks (Lessons 1.1 to 1.4)*. If you already pushed it, do not do it again.
-
----
-
-## Task 1.4: Business Prompt Builder
-
-**File:** `code/lesson_04_print_input.py`
-
-**Client story:** A digital agency wants a tiny tool: the user enters business details, and the tool creates a ready-to-use AI prompt.
-
-**Requirements**
-1. Docstring at the top describing the file
-2. Ask the user for: their name, business type, and one problem the business faces
-3. Print a welcome line
-4. Build and print this prompt using an f-string:
-   *"Suggest 3 AI solutions for a {business} that struggles with {problem}."*
-5. At least 2 comments that explain **why**, not what
-
-**Expected output**
-```text
-Your name: Bilal
-Business type: bakery
-Biggest problem: late delivery orders
-
-Welcome, Bilal!
---- Your AI Prompt ---
-Suggest 3 AI solutions for a bakery that struggles with late delivery orders.
-```
-
-**Checklist**
-- [ ] Uses `input()` 3 times
-- [ ] Prompt built with an f-string
-- [ ] Docstring + 2 "why" comments
-- [ ] Runs without errors
-
-**Stretch:** ask for a monthly budget in PKR, convert it with `int()`, and add `Budget: {budget} PKR per month.` to the prompt. Then paste the prompt into Ollama and save the answer in `docs/prompt-test.md`.
 
 ---
 
