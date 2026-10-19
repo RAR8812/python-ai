@@ -13,7 +13,7 @@ Every lesson ends with something you can run, push to GitHub, and show to a clie
 ![uv](https://img.shields.io/badge/uv-package%20manager-261230?style=for-the-badge)
 ![LangChain](https://img.shields.io/badge/LangChain-LLM%20apps-1c3c3c?style=for-the-badge)
 ![Ollama](https://img.shields.io/badge/Ollama-local%20models-000000?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Module%202%20in%20progress-0a7d5a?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Modules%201%20and%202%20ready-0a7d5a?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-3e4c59?style=for-the-badge)
 
 <br>
@@ -83,7 +83,7 @@ flowchart LR
 
 ### One project, growing with you
 
-The course follows a single thread: a customer-support bot for an example business, *Sweet Crumbs bakery*. It starts as a prompt printer, becomes a rule-based chatbot, and then gets a real AI brain.
+The course follows a single thread: a customer-support bot for an example business, *Sweet Crumbs bakery*. It starts as a prompt printer, becomes a rule-based chatbot, gets a real AI brain, and ends Module 2 as an agent that uses tools and asks before it acts.
 
 ```mermaid
 flowchart LR
@@ -92,10 +92,14 @@ flowchart LR
     C["<b>Lesson 1.7</b><br/>Model router<br/><i>if / elif / else</i>"]
     D["<b>Lesson 1.8</b><br/>Rule-based chatbot<br/><i>while loop and memory</i>"]
     E["<b>Lesson 2.1</b><br/>Hybrid AI chatbot<br/><i>rules plus a real LLM</i>"]
+    F["<b>Lessons 2.2 to 2.4</b><br/>Memory and real facts<br/><i>lists, dicts, loops</i>"]
+    G["<b>Lessons 2.5 to 2.7</b><br/>Saved, safe, structured<br/><i>functions, JSON, schemas</i>"]
+    H["<b>Lesson 2.8</b><br/>First AI agent<br/><i>tools and the agent loop</i>"]
 
-    A --> B --> C --> D --> E
+    A --> B --> C --> D --> E --> F --> G --> H
 
-    style E fill:#0a7d5a,stroke:#0a7d5a,color:#ffffff
+    style E fill:#2c6e91,stroke:#2c6e91,color:#ffffff
+    style H fill:#0a7d5a,stroke:#0a7d5a,color:#ffffff
 ```
 
 ---
@@ -119,16 +123,20 @@ Build the foundation: tools, project setup, and the core Python that every AI ap
 
 ### Module 2: Core Python for Building LLM Apps
 
-Connect Python to real language models, then learn the data structures and control flow that real LLM apps depend on.
+Connect Python to real language models, then learn the data structures, functions, files and control flow that real LLM apps depend on. The module ends with your first AI agent, built by hand: `Agent = LLM + Tools + Memory + Loop`.
 
 | # | Lesson | What you learn | What you build |
 |:-:|---|---|---|
 | 2.1 | [Your First AI Call](docs/02-talk-to-ai/2.1-your-first-ai-call.md) | LangChain `init_chat_model`, `invoke`, token usage, system messages, temperature, streaming | AI tutor, and the Module 1 bot with a real AI brain |
-| 2.2 | Chat History with Lists | Coming soon | A chatbot that remembers the conversation |
-| 2.3 | Dictionaries | Coming soon | Structured data such as price lists |
-| 2.4 | `for` Loops | Coming soon | Processing many items and responses |
+| 2.2 | [Chat History with Lists](docs/02-talk-to-ai/2.2-chat-history-with-lists.md) | Lists, indexing, `append`, the messages list, memory cost, trimming with slices | Personal tutor with memory |
+| 2.3 | [Messages are Dictionaries](docs/02-talk-to-ai/2.3-messages-are-dictionaries.md) | Dictionaries, `.get()`, nested data, grounding the AI with real facts, personas | Persona bot with real facts |
+| 2.4 | [Loops that Talk](docs/02-talk-to-ai/2.4-loops-that-talk.md) | `for` loops, `range`, `.items()`, `continue`, accumulators, `enumerate`, bot evaluation | Batch product writer |
+| 2.5 | [Functions = Reusable AI Skills](docs/02-talk-to-ai/2.5-functions-reusable-ai-skills.md) | `def`, parameters, defaults, `return`, scope, docstrings, `assert` tests, AI skills | AI skills toolkit |
+| 2.6 | [Files, JSON and Errors](docs/02-talk-to-ai/2.6-files-json-and-errors.md) | Text and JSON files, `try / except`, connection and model errors, logs, privacy | Saved bot that never crashes |
+| 2.7 | [Structured Output](docs/02-talk-to-ai/2.7-structured-output.md) | JSON mode, JSON schemas, temperature 0, checking AI data, catching hallucinations | WhatsApp order extractor |
+| 2.8 | [Your First Agent](docs/02-talk-to-ai/2.8-your-first-agent.md) | `@tool`, `bind_tools`, tool calls, the agent loop, `MAX_STEPS`, guardrails, human approval | Bakery agent with three tools (Module 2 final) |
 
-> The course is released lesson by lesson. Watch or star the repository to follow new lessons as they are published.
+> The course is released module by module. Watch or star the repository to follow new lessons as they are published.
 
 ---
 
@@ -188,6 +196,16 @@ flowchart LR
 - **Checkpoint 1 project:** a tool that turns a business's details into three ready-to-use AI prompts, tested on a real model.
 - **Checkpoint 2 project (Module 1 final):** a front desk that answers FAQs with rules, calculates exact price quotes, routes other questions to a local or cloud model, and prints a session report.
 
+### Module 2
+
+| Checkpoint | Lessons | Quick check | Code tasks | Project |
+|---|---|---|---|---|
+| 1 | 2.1 to 2.4 | [Quick Check 1](docs/assessments/module-2/checkpoint-1-quick-checks.md) | [Tasks 2.1 to 2.4](docs/assessments/module-2/checkpoint-1-code-tasks.md) | [AI Content Studio for a Local Business](docs/assessments/module-2/checkpoint-1-project-content-studio.md) |
+| 2 | 2.5 to 2.8 | [Quick Check 2](docs/assessments/module-2/checkpoint-2-quick-checks.md) | [Tasks 2.5 to 2.8](docs/assessments/module-2/checkpoint-2-code-tasks.md) | [AI Business Assistant](docs/assessments/module-2/checkpoint-2-project-business-assistant.md) |
+
+- **Checkpoint 1 project:** a content studio that writes a whole menu in one batch, streams social media posts in different tones, answers prices from real data, and chats with memory grounded in the owner's facts.
+- **Checkpoint 2 project (Module 2 final):** an agent that answers from the owner's JSON file, checks and places orders with tools after the owner approves, turns WhatsApp messages into checked orders, saves everything, and never crashes.
+
 **Project marking at a glance**
 
 | Score | Level |
@@ -236,7 +254,7 @@ uv run main.py
 
 ```bash
 ollama pull llama3.2           # about 2 GB; use llama3.2:1b on 8 GB RAM laptops
-uv add langchain langchain-ollama
+uv add langchain langchain-ollama httpx
 ```
 
 **4. Start learning**
@@ -269,9 +287,10 @@ python-ai/
 │   └── lesson_01_intro.py
 ├── docs/
 │   ├── 01-python-basics/         Module 1 lessons (1.1 to 1.8)
-│   ├── 02-talk-to-ai/            Module 2 lessons (2.1 onward)
+│   ├── 02-talk-to-ai/            Module 2 lessons (2.1 to 2.8)
 │   └── assessments/
-│       └── module-1/             Checkpoints 1 and 2: quick checks, code tasks, projects
+│       ├── module-1/             Checkpoints 1 and 2: quick checks, code tasks, projects
+│       └── module-2/             Checkpoints 1 and 2: quick checks, code tasks, projects
 ├── notebooks/                    Jupyter notebooks (.ipynb)
 ├── main.py                       First script
 ├── pyproject.toml                Project definition and dependencies
@@ -287,7 +306,8 @@ python-ai/
 |---|---|---|
 | Lesson scripts | `code/lesson_<NN>_<topic>.py` | `code/lesson_05_variables.py` |
 | Module 2 scripts | `code/lesson_<M>_<N>_<topic>.py` | `code/lesson_2_1_first_ai_call.py` |
-| Project scripts | `code/project_m<M>_<name>.py` | `code/project_m1_front_desk.py` |
+| Project scripts | `code/project_m<M>_<name>.py` | `code/project_m2_business_assistant.py` |
+| Data files | `code/<name>.json` | `code/faq.json`, `code/business.json` |
 | Commit messages | `Task <N>: <short description>` | `Task 1.5: model profile card` |
 
 ---
