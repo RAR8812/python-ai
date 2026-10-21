@@ -352,4 +352,16 @@ This project is released under the [MIT License](LICENSE). You are free to use, 
 
 Clients pay for outcomes, not code. Learn to deliver both.
 
+
+## Task 1.8: City Care Bot Design
+
+| Intent | User wants | Keywords | Reply |
+|---|---|---|---|
+| Complaint | To report a problem | late, problem, complaint, wrong | Sorry about that. The clinic manager will call you today. |
+| Greeting | To say hello | hi, hello (exact word) | Hello! How can I help you? |
+| Timings | Opening hours | timing, hours, open | We are open 10 am to 8 pm, Monday to Saturday. |
+| Fees | Consultation price | fee, price, cost | Consultation fee is 2,000 PKR. |
+| Location | Where the clinic is | where, location, address | We are on Main Boulevard, Lahore. |
+| Appointment | To book a visit | appointment, book | Call 0300-0000000 to book an appointment. |
+
 </div>
