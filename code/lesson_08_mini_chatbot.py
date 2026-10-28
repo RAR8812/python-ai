@@ -25,8 +25,7 @@ while True:
     elif "late" in message or "problem" in message or "complaint" in message or "wrong" in message:
         print("City Care Bot: Sorry about that. The clinic manager will call you today.")
     # "hi" is checked with == and startswith, because "hi" inside "which" would fire by mistake
-    elif message == "hi" or message == "hello" or message.startswith("hi ") or message.startswith("hello "):
-        print(f"City Care Bot: Hello {name}! How can I help you?")
+    elif message == "hi" or message == "hello" or message.startswith("hi ") or message.startswith("hello "):        print(f"City Care Bot: Hello {name}! How can I help you?")
     elif "timing" in message or "hours" in message or "open" in message:
         print("City Care Bot: We are open 10 am to 8 pm, Monday to Saturday.")
     elif "fee" in message or "price" in message or "cost" in message:
